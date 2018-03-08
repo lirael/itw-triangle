@@ -1,0 +1,98 @@
+body, html{
+	margin: 0;
+}
+
+.container-fluid{
+	width: 100%;
+	display: block;
+	background-color: #3E2723;
+}
+
+.main{
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav{
+	padding-top: 100px;
+}
+
+.center{
+	text-align: center;
+}
+
+.menu{
+	list-style-type: none;
+	padding-left: 0;
+	height: 30px
+}
+
+.menu li{
+	display: inline-block;
+	float: left;
+	height: 100%;
+}
+
+.menu li a{
+	padding: 5px 15px;
+	color: white;
+	text-decoration: none;
+	margin-top: 5px;
+	display: block;
+	height: 100%;
+}
+
+.menu li:first-child a{
+	margin-left: -15px;
+}
+
+.gradient{
+	color: black;
+	background: #eee;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #FF6F00, #FFA000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #eee, #aaa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 5px 0;
+	box-sizing: border-box;
+}
+
+/* hover */
+
+#hover-top ul li a:hover{
+	background-image: url('menu_bullet.gif');
+	background-repeat: no-repeat;
+	background-position: center 30px;
+}
+
+/* dl */
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+
+.col-50{
+	width: 50%;
+	display: block;
+	overflow: hidden;
+	height: auto;
+	float: left;
+}
+
+.container dl{
+	width: 80%;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.container dt, .container dd {
+ 	float: left;
+  	width: 50%;
+  	margin: 0;
+}
+
